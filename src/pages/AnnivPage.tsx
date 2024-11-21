@@ -25,7 +25,7 @@ Happy anniversary, my love. Here’s to us and to many more years of happiness t
 
     const [displayedText, setDisplayedText] = useState("");
     const [i, setI] = useState(0);
-    const [speed, setSpeed] = useState(70);
+    const [speed] = useState(70);
     const [isTag, setIsTag] = useState(false);
 
     useEffect(() => {

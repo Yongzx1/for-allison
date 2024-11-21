@@ -18,9 +18,8 @@ const MouseImageTrail = ({
   const [zone, setZone] = useState("center");  // Track the current zone
 
   // Function to determine the zone based on mouse position
-  const determineZone = (clientX: number, clientY: number) => {
+  const determineZone = (clientX: number,) => {
     const pageWidth = window.innerWidth;
-    const pageHeight = window.innerHeight;
 
     // Check horizontal position (left, center, right)
     if (clientX < pageWidth / 3) {
@@ -47,7 +46,7 @@ const MouseImageTrail = ({
       lastRenderPosition.current.y = clientY;
 
       // Determine the zone based on mouse position
-      const newZone = determineZone(clientX, clientY);
+      const newZone = determineZone(clientX, );
       setZone(newZone);
 
       renderNextImage();
