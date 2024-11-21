@@ -10,28 +10,34 @@ const Player: React.FC = () => {
 
     const albumImgs = [
         {
-            song: "Leonora",
-            author: "Sugarcane",
+            song: "Sugarcane",
+            author: "Leonora",
             src: "https://res.cloudinary.com/dupynxkci/video/upload/v1732169469/SUGARCANE_-_Leonora_Official_Lyric_Video_bhrb7f.mp3",
             image: "https://cdn-images.dzcdn.net/images/cover/c8c14eddd87616a1dda62761178f4b6b/1900x1900-000000-80-0-0.jpg",
         },
         {
-            song: "Isip",
-            author: "Healy After Dark",
+            song: "Healy After Dark",
+            author: "Isip",
             src: "https://res.cloudinary.com/dt0cpdnxy/video/upload/v1732197271/Healy_After_Dark_-_Isip_Lyrics_tnjhix.mp3",
             image: "https://cdn-images.dzcdn.net/images/cover/01a10c2810cb31365d3bd1939a58ce1c/0x1900-000000-80-0-0.jpg",
         },
         {
-            song: "Nahuhulog",
-            author: "Jed Baruelo",
+            song: "Jed Baruelo",
+            author: "Nahuhulog",
             src: "https://res.cloudinary.com/dt0cpdnxy/video/upload/v1732204467/Jed_Baruelo_-_Nahuhulog_Official_Audio_g7opnm.mp3",
             image: "https://images.genius.com/8fb4d63996dcd6f4fce110c4f80d3571.1000x1000x1.jpg",
         },
         {
-            song: "Mahika",
-            author: "Adie",
+            song: "Adie",
+            author: "Mahika",
             src: "https://res.cloudinary.com/dt0cpdnxy/video/upload/v1732204767/Adie_Janine_Berdin_-_Mahika_Lyrics_qkbjao.mp3",
             image: "https://upload.wikimedia.org/wikipedia/en/2/2c/Mahika_%28song%29.png",
+        },
+        {
+            song: "Lola Amour",
+            author: "Fallen",
+            src: "https://res.cloudinary.com/dt0cpdnxy/video/upload/v1732209955/Lola_Amour_-_Fallen_Official_Lyric_Video_cjlylu.mp3",
+            image: "https://i.scdn.co/image/ab67616d0000b273f359218480dd62d41ce8154c",
         },
     ];
 
