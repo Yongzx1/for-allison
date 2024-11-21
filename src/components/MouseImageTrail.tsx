@@ -135,6 +135,7 @@ const MouseImageTrail = ({
       ref={scope}
       className="relative "
       onMouseMove={handleMouseMove}
+      
     >
       {children}
 

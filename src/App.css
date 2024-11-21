@@ -71,6 +71,8 @@
 html,
 body {
   height: 100%;
+  background-color: #f4d7d7;
+  /* background: #f4d7d7; */
 }
 
 .icon {
@@ -87,7 +89,7 @@ body {
 }
 
 .player__bar {
-  background: white;
+  background: #fbeaea;
   padding: 10px 25px;
   height: 100px;
   display: flex;
@@ -99,7 +101,7 @@ body {
 }
 
 .player__timeline {
-  background: white;
+  background: #fbeaea;
   height: 95px;
   border-radius: 15px;
   padding-left: 160px;
@@ -109,11 +111,11 @@ body {
   bottom: 0;
   transform: translateY(0);
   transition: all 0.3s ease-in-out;
-  z-index: -200;
+  z-index: -150;
 }
 
 .player.play .player__timeline {
-  transform: translateY(-120%);
+  transform: translateY(-110%);
 }
 
 .player__album {
@@ -228,7 +230,6 @@ body {
 }
 
 .player__volume {
-  margin-top: 10px;
   display: flex;
   align-items: center;
   gap: 10px;

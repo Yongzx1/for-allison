@@ -69,7 +69,7 @@ Happy anniversary, my love. Here’s to us and to many more years of happiness t
                 rotationRange={25}
                 images={imageUrls}
             >
-                <section className="grid h-[70vh] w-full place-content-center bg-white">
+                <section className="grid h-[70vh] w-full place-content-center bg-[#f4d7d7]">
                     <div className="grid place-items-center mx-auto mt-4 space-y-8">
                         <div
                             className="custom-text"
