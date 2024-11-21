@@ -9,19 +9,11 @@ const AnnivPage = () => {
         "/a7.png", "/a8.png", "/a9.png", "/a10.png", "/a11.png", "/a12.png", "/a13.png", "/a14.png"
     ];
 
-    const str = `<h1 class="happy-anniversary">Happy First Anniversary Baby!</h1><p>Dear Allison, I realize how lucky I am to have you in my life. Today marks another beautiful chapter in our journey together a journey filled with love, laughter, and countless memories that I hold close to my heart.
+    const str = `<h1 class="happy-anniversary">Hey Allison!</h1><p>I hope this doesn’t come across as too forward, but I just wanted to say something I’ve been thinking. I came across your profile recently, and I couldn’t help but notice how incredible you seem. The way you express yourself, the things you're passionate about—there’s this energy that really drew me in.
 
-From the moment we met, you brought a kind of light into my world that I didn’t even know I needed. You’ve shown me the beauty in the little things—the warmth of your smile, the sound of your laughter, the way your eyes sparkle when you talk about something you love. You’ve made my days brighter, my struggles lighter, and my heart fuller.
+I don’t know you yet, but from what I’ve seen, I have to say I’m really impressed. There’s something about your smile and the way you talk about things that just stands out. It’s hard not to be drawn to someone like that.
 
-This past year has been nothing short of amazing, not because it was perfect, but because I got to share it with you. We've had our share of ups and downs, but each challenge has only made us stronger. You’ve taught me the true meaning of love, patience, and partnership.
-
-I want you to know how deeply I admire you. Your kindness, strength, and unwavering support inspire me every day. You are not only my partner but also my best friend, my confidant, and the person I look forward to seeing every single day.
-
-As we celebrate this special day, I want to make a promise to you: I will always cherish you, support you, and love you unconditionally. I will work to make you laugh when you’re down and hold your hand through the tough times. I will celebrate your successes and stand by your side through every twist and turn life throws our way.
-
-Thank you for being you—for loving me, accepting me, and letting me be a part of your life. I can’t wait to see what the future holds for us. With you, I know it will be nothing short of extraordinary.
-
-Happy anniversary, my love. Here’s to us and to many more years of happiness together.</p>`;
+I don’t want to make this weird, but I just felt like I had to reach out and let you know how much I admire you already. Maybe we could talk sometime? I’d love to get to know you better, if you're open to it.</p>`;
 
     const [displayedText, setDisplayedText] = useState("");
     const [i, setI] = useState(0);
