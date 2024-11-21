@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+
+.reenie-beanie-regular {
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+.title {
+  font-size: 2em;
+  font-family: "Parkinsans", cursive;
+}
+.happy-anniversary {
+  font-size: 2.5em;
+  color: #b6584e;
+  font-family: "Reenie Beanie", cursive;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* .custom-text {
+  animation: appear 1.5s 0.1s ease-in-out forwards;
+  opacity: 0;
+} */
+
+#container {
+  width: 700px;
+  opacity: 0.85;
+}
+
+#button {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  padding: 1em 2em;
+  border: none;
+  color: #141623;
+  width: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #141623;
+  background-color: #fdf7eb;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+#button:hover {
+  transform: translateX(10%);
+  background-color: #141623;
+  border: none;
+  color: #f7f7f7;
+  opacity: 1;
+}
+#button:focus {
+  outline: 0;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.icon {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  font-size: 30px;
+  fill: #d7dce2;
+  transition: all 0.2s ease-in-out;
+}
+
+.player {
+  width: 100%;
+}
+
+.player__bar {
+  background: white;
+  padding: 10px 25px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0 30px 56px 6px rgb(241, 214, 224);
+  border: 1px solid #fae4ea;
+}
+
+.player__timeline {
+  background: white;
+  height: 95px;
+  border-radius: 15px;
+  padding-left: 160px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+  z-index: -200;
+}
+
+.player.play .player__timeline {
+  transform: translateY(-120%);
+}
+
+.player__album {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 22px;
+  position: relative;
+  top: -35px;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0px 30px 28px -10px rgba(0, 0, 0, 0.2);
+}
+
+.player__albumImg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  z-index: 100;
+  display: none;
+  transition: transform 0.4s ease-in-out;
+}
+
+.player__albumImg.active-song {
+  display: block;
+  animation: rotateScale 5s linear infinite;
+}
+
+/* Keyframes for rotation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add rotation when playing */
+.player__albumImg.active-song.playing {
+  animation: rotate 5s linear infinite;
+}
+
+.player__controls {
+  display: flex;
+  align-items: center;
+}
+
+.player__prev,
+.player__play,
+.player__next {
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.player__prev {
+  transform: rotate(180deg);
+}
+
+.player__play:hover,
+.player__prev:hover,
+.player__next:hover {
+  background: #d7dce2;
+}
+
+.player__play:hover svg,
+.player__prev:hover svg,
+.player__next:hover svg {
+  fill: #fff;
+}
+
+.player__timelineBar {
+  background: #e7e7e7;
+  width: 100%;
+  height: 4px;
+  border-radius: 15px;
+  margin-top: 13px;
+  position: relative;
+}
+
+#playhead {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  width: 0;
+  height: 100%;
+  background: #fd6d94;
+}
+
+.player__author {
+  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-top: 15px;
+}
+
+.player__song {
+  line-height: 1;
+  margin: 0;
+  font-size: 12px;
+  color: #949494;
+}
+
+.player__volume {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#volume-slider {
+  width: 100%;
+}
