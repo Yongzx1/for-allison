@@ -21,6 +21,15 @@
   margin-bottom: 1rem;
 }
 
+#container p {
+  margin-top: 1.5rem; /* Adds spacing between paragraphs */
+  margin-bottom: 1.5rem; /* Optional, for consistency */
+  line-height: 1.8; /* Adjusts line spacing for better readability */
+  text-align: justify; /* Aligns text for a clean appearance */
+  font-size: 1.1rem; /* Ensures the text size is comfortable to read */
+  color: #333; /* Ensures good contrast for legibility */
+}
+
 /* .custom-text {
   animation: appear 1.5s 0.1s ease-in-out forwards;
   opacity: 0;
