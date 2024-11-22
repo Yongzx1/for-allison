@@ -10,6 +10,12 @@ const Player: React.FC = () => {
 
     const albumImgs = [
         {
+            song: "Jed Baruelo",
+            author: "Nahuhulog",
+            src: "https://res.cloudinary.com/dt0cpdnxy/video/upload/v1732204467/Jed_Baruelo_-_Nahuhulog_Official_Audio_g7opnm.mp3",
+            image: "https://images.genius.com/8fb4d63996dcd6f4fce110c4f80d3571.1000x1000x1.jpg",
+        },
+        {
             song: "Sugarcane",
             author: "Leonora",
             src: "https://res.cloudinary.com/dupynxkci/video/upload/v1732169469/SUGARCANE_-_Leonora_Official_Lyric_Video_bhrb7f.mp3",
@@ -21,13 +27,7 @@ const Player: React.FC = () => {
             src: "https://res.cloudinary.com/dt0cpdnxy/video/upload/v1732197271/Healy_After_Dark_-_Isip_Lyrics_tnjhix.mp3",
             image: "https://cdn-images.dzcdn.net/images/cover/01a10c2810cb31365d3bd1939a58ce1c/0x1900-000000-80-0-0.jpg",
         },
-        {
-            song: "Jed Baruelo",
-            author: "Nahuhulog",
-            src: "https://res.cloudinary.com/dt0cpdnxy/video/upload/v1732204467/Jed_Baruelo_-_Nahuhulog_Official_Audio_g7opnm.mp3",
-            image: "https://images.genius.com/8fb4d63996dcd6f4fce110c4f80d3571.1000x1000x1.jpg",
-        },
-        {
+                {
             song: "Adie",
             author: "Mahika",
             src: "https://res.cloudinary.com/dt0cpdnxy/video/upload/v1732204767/Adie_Janine_Berdin_-_Mahika_Lyrics_qkbjao.mp3",
